@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>My Library</title>
     <style>
         * {
             font-family: 'Roboto', sans-serif;
@@ -17,49 +15,48 @@
             margin-left: auto;
         }
 
-        .video {
-            width: 400px;
-            height: auto;
+        .titulo {
+            text-align: center;
         }
 
-        .cards {
+        .contenidos {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .enlace {
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .logotipo {
             display: flex;
-            flex-wrap: wrap;
-        }
-
-        .card {
-            width: 450px;
+            text-align: center;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
         }
     </style>
 </head>
 
 <body>
-    <section class="cards">
-        <article class="card">
-            <h1>My Title</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quae tempora consequuntur harum
-                eligendi
-                laboriosam ratione eius maxime sapiente! Suscipit enim delectus minus distinctio obcaecati! Incidunt hic
-                deleniti nam doloribus!</p>
-            <video class="video" src="videos/myvideo.mp4" controls></video>
-        </article>
-        <article class="card">
-            <h1>My Title</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quae tempora consequuntur harum
-                eligendi
-                laboriosam ratione eius maxime sapiente! Suscipit enim delectus minus distinctio obcaecati! Incidunt hic
-                deleniti nam doloribus!</p>
-            <video class="video" src="videos/myvideo.mp4" controls></video>
-        </article>
-        <article class="card">
-            <h1>My Title</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quae tempora consequuntur harum
-                eligendi
-                laboriosam ratione eius maxime sapiente! Suscipit enim delectus minus distinctio obcaecati! Incidunt hic
-                deleniti nam doloribus!</p>
-            <video class="video" src="videos/myvideo.mp4" controls></video>
-        </article>
-    </section>
+    <h1 class="titulo">Biblioteca X</h1>
+    <img class="logotipo" src="https://picsum.photos/200/300" alt="Logo">
+    <div class="contenidos">
+        <p>
+            <a class="enlace" href="library/tema1.html">Ir a Tema 1</a>
+        </p>
+        <p>
+            <a class="enlace" href="library/tema2.html">Ir a Tema 2</a>
+        </p>
+        <p>
+            <a class="enlace" href="">Ir a Tema 3</a>
+        </p>
+        <p>
+            <a class="enlace" href="">Ir a Tema 4</a>
+        </p>
+    </div>
+
 </body>
 
 </html>
